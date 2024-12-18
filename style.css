@@ -159,7 +159,7 @@ main{
 .hz{
     height: 500px;
     width: 100%;
-    background-image: linear-gradient(to top, transparent 0% 60%, #f5f7ea 100%), url(https://img.freepik.com/premium-photo/creating-perfect-snapshot-harmonious-companionship-humans-horse-their-canine-friends_968529-59771.jpg);
+    background-image: linear-gradient(to top, transparent 0% 60%, #f5f7ea 100%), url(https://img.freepik.com/premium-photo/creating-perfect-snapshot-harmonious-companionship-humans-horse-their-canine-friends_968529-59771.jpg));
     background-repeat: no-repeat;
     background-size: cover;
     color: #3f6e49;
