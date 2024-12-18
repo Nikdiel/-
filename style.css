@@ -1,0 +1,386 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    width: 1000px;
+    background-color: #f5f7ea;
+    overflow: hidden;
+}
+
+.razryv{
+    position: absolute;
+    width: 102%;
+    height: auto;
+    bottom: 0;
+}
+
+.razryv2{
+    position: absolute;
+    width: 101%;
+    top: 0;
+    transform: rotate(180deg);
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    color: #f5f7ea;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.header>img:first-child{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0%;
+    filter: brightness(60%);
+}
+.text{
+    position: absolute;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text p{
+    max-width: 420px;
+    margin: 0;
+}
+
+.link{
+    height: 60px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #3f6e49;
+    background-color: #b9d976;
+    border: 1px solid #3f6e49;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    margin: 120px 0;
+    text-align: center;    
+}
+
+.title img{
+    height: 80px;
+    width: 80px;
+}
+.containerAll{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+}
+
+.about>div.title>h1{
+    font-size: 4em;
+    color: #3f6e49;
+}
+
+.about>div.title>img{
+    transform: rotate(-10deg);
+    margin-left: 50px;
+}
+
+.about>div.title{
+   align-self: self-start;
+}
+
+.aboutConteiner{
+    height: 300px;
+    width: 44%; 
+    border-radius: 20px;
+    border: 2px solid grey;
+    color:#3f6e49;
+}
+
+.aboutConteiner img{
+    position: relative;
+    float: right;
+    height: 100px;
+    width: 100px;
+    margin: 20px 40px 0 0;
+}
+
+.aboutConteiner h1{
+    margin: 30px 0 0 15px;
+    height: auto;
+    font-size: 2em;
+}
+
+.ff{
+    display: flex;
+    align-items: end;
+
+}
+
+.aboutConteiner p{
+    margin: 30px 0 0 15px;
+    height: auto;
+    font-size: 1.1em;
+}
+
+.hz{
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(to top, transparent 0% 60%, #f5f7ea 100%), url(https://www.pferdreiter.de/bulgarien/BB384.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #3f6e49;
+    position: relative;
+}
+
+.hz>div>h1{
+    margin-top: 0;
+}
+
+.vetki{
+    height: 220px;
+    width: 100px;
+    position: absolute;
+    transform: rotate(-90deg);
+}
+
+.hz div{
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+
+.serviceContainer{
+    width: 89%;
+    height: 450px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    color: #3f6e49;
+    min-width: 590px;
+}
+
+.serviceContainer div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.i{
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+    margin: 0%;
+}
+
+.cost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+.cost a{
+    color: #3f6e49;
+}
+.serviceContainer h1{
+    font-size: 2em;
+    margin-left: 5%;
+}
+
+.serviceContainer p{
+    height: auto;
+    margin-left: 5%;
+}
+
+.cost>p{
+    width: auto;
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    background-color: #3f6e49;
+    color: #f5f7ea;
+}
+
+.cost a{
+    width: 200px;
+}
+
+.more{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.more img{
+    height: 10px;
+    width: 50px;
+}
+
+.reviews{
+    height: 1400px;
+    width: 100%;
+    background-image: linear-gradient(0deg, #f5f7ea, #3f6e49 5% 95%, #f5f7ea);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.reviews>h1{
+    text-align: center;
+    color: #f5f7ea;
+    font-size: 4em;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.reviews>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    position: relative;
+}
+
+.reviews>div>div{   
+    width: 500px;
+    height: 500px;
+    background-image: url(img/бумажка.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.reviews>div>div>img{
+    height: 400px;
+    width: auto;
+    position: absolute;
+    top: 250px;
+    transform: scale(-1,1);
+    margin-left: 60px;
+}
+
+.strelka{
+    height: 10px;
+    width: 80px;
+}
+
+.zvezda{
+    height: 80px;
+    width: auto;
+    position: absolute;
+    padding: 0 20px 20px 0;
+    left: 22%;
+    bottom: 84%;
+    z-index: 2;
+}
+
+.reviews>div>div>div{
+    position: relative;
+    left: 10%;
+    top: 50px;
+    color: #3f6e49;
+}
+
+.reviews>div>div>div>h1{
+    font-size: 2em;
+}
+
+.reviews>div>div>div>p:last-child{
+    max-width: 80%;
+    font-size: 20px;
+    margin-top: 30px;
+    height: auto;
+}
+
+.contact>h1{
+    text-align: center;
+    color: #3f6e49;
+    font-size: 4em;
+    margin-bottom: 50px;
+}
+span{
+    margin-left: 5%;
+}
+
+.contact a{
+    background-color: #b9d976;
+    border: 1px solid #3f6e49;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+.contact p{
+    font-size: 20px;
+    max-width: 80%;
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(to top, transparent 0% 60%, #f5f7ea 100%), url(https://www.shutterstock.com/shutterstock/videos/1017250003/thumb/1.jpg?ip=x480);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer img{
+    width: 100%;
+    height: auto;
+}
+
+a>img{
+    height: 10px;
+    width: 70px;
+}
+p{
+   width: 90%;
+}
+h2{
+    width: 70%;
+}
+h1{
+    width: 100%;
+}
